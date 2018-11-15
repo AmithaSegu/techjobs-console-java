@@ -116,8 +116,9 @@ public class TechJobs {
             System.out.println("No data found.Try Another search");
         }
         else {
-              System.out.println("*****\n");
+
               for (HashMap<String, String> job : someJobs) {
+                  System.out.println("*****");
                   for (String map_key : job.keySet()) {
                       System.out.println(map_key + " :" + job.get(map_key));
                   }
